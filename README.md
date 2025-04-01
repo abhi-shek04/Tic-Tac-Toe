@@ -25,7 +25,7 @@ A beautiful, responsive Tic Tac Toe game built with HTML, CSS, JavaScript, and B
 
 ## Live Demo
 
-[Play the game here](https://yourusername.github.io/tic-tac-toe) <!-- Replace with your actual GitHub Pages URL -->
+[Play the game here](https://abhi-shek04.github.io/Tic-Tac-Toe/)
 
 ## Getting Started
 
@@ -38,12 +38,12 @@ A beautiful, responsive Tic Tac Toe game built with HTML, CSS, JavaScript, and B
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/tic-tac-toe.git
+git clone https://github.com/abhi-shek04/Tic-Tac-Toe.git
 ```
 
 2. Navigate to the project directory:
 ```bash
-cd tic-tac-toe
+cd Tic-Tac-Toe
 ```
 
 3. Open `index.html` in your web browser to start playing!
