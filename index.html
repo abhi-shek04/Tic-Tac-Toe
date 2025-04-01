@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Tic Tac Toe</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6 text-center">
+                <h1 class="mb-4">Tic Tac Toe</h1>
+                <div class="status-wrapper">
+                    <div id="status" class="mb-4">Player X's Turn</div>
+                </div>
+                <div class="game-board mb-4">
+                    <div class="row g-2">
+                        <div class="col-4">
+                            <button class="btn btn-outline-primary" data-cell="0"></button>
+                        </div>
+                        <div class="col-4">
+                            <button class="btn btn-outline-primary" data-cell="1"></button>
+                        </div>
+                        <div class="col-4">
+                            <button class="btn btn-outline-primary" data-cell="2"></button>
+                        </div>
+                        <div class="col-4">
+                            <button class="btn btn-outline-primary" data-cell="3"></button>
+                        </div>
+                        <div class="col-4">
+                            <button class="btn btn-outline-primary" data-cell="4"></button>
+                        </div>
+                        <div class="col-4">
+                            <button class="btn btn-outline-primary" data-cell="5"></button>
+                        </div>
+                        <div class="col-4">
+                            <button class="btn btn-outline-primary" data-cell="6"></button>
+                        </div>
+                        <div class="col-4">
+                            <button class="btn btn-outline-primary" data-cell="7"></button>
+                        </div>
+                        <div class="col-4">
+                            <button class="btn btn-outline-primary" data-cell="8"></button>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn btn-success" id="restart">New Game</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html> 
